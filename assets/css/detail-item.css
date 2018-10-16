@@ -1,21 +1,22 @@
 html, body{
     width: 100%;
     height: 100%;
-    background-color: grey;
+    /* background-color: grey; */
     margin: 0;
+    padding-bottom: 10%;
 }
 
 #content{
     width: 80%;
     height: 80%;
-    background-color: black;
+    /* background-color: black; */
     margin: auto;
 }
 
 #footer{
     width: 100%;
     height: 10%;
-    background-color: green;
+    /* background-color: green; */
 }
 
 #nav-bar{
@@ -33,7 +34,7 @@ html, body{
 #logo-nav{
     height: 100%;
     width: 20%;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
 }
 .nav-item{
    height: 50%;
@@ -61,7 +62,7 @@ div {
 }
 
 .dock-left {
-    background-color: cyan;
+    /* background-color: cyan; */
     width: 40%;
     flex-direction: column;
     align-items: center;
@@ -69,31 +70,42 @@ div {
 }
 
 .dock-right {
-    background-color: magenta;
+    /* background-color: magenta; */
 }
 
 .main-photo {
-    background: yellow;
+    /* background: yellow; */
     box-sizing: border-box;
-    padding-bottom: 100%;
+    /* padding-bottom: 100%; */
+}
+
+.main-photo>img{
+    width: 100%;
+    height: 100%;
 }
 
 .other-photo-container {
-    height: 80px;
+    height: 700px;
     background: black;
     justify-content: flex-start;
+}
+
+.photo>img{
+    width: 100%;
+    height: 100%;
 }
 
 .photo {
     width: 60px;
     height: 60px;
     margin: 10px;
-    background: green;
+    /* background: green; */
 }
 
 .color-variance {
-    height: 40px;
-    background: red;
+    margin: 50px;
+    height: 100px;
+    /* background: red; */
     justify-content: flex-start;    
 }
 
@@ -106,18 +118,44 @@ div {
     box-sizing: border-box;
 }
 
+#color1{
+    background: red;
+}
+#color2{
+    background: yellow;
+}
+#color3{
+    background: blue;
+}
+#color4{
+    background: cyan;
+}
+#color5{
+    background: green;
+}
+#color6{
+    background: black;
+}
+#color7{
+    background: pink;
+}
+#color8{
+    background: purple;
+}
+
 .size-variance {
-    height: 70px;
+    height: 275px;
+    margin-bottom: 50px;
     justify-content: center;
     flex-wrap: wrap;
     background: pink;
 }
 
 .size-picker {
-    height: 25px;
+    height: 30px;
     width: 30%;
     background: orange;
-    margin: 0px 2px 0px 2px;
+    margin: 5px 5px 5px 5px;
 }
 
 .dock-right {
@@ -129,7 +167,7 @@ div {
 
 .product-name {
     box-sizing: border-box;
-    background: pink;
+    /* background: pink; */
     font-size: 24px;
     width: initial;
 }
@@ -141,12 +179,12 @@ div {
 
 .rating {
     height: 20px;
-    background: green;
+    /* background: green; */
     width: initial;
 }
 
 .price {
-    background: limegreen;
+    /* background: limegreen; */
     width: initial;
 }
 
@@ -157,20 +195,20 @@ div {
 
 .buttons {
     height: 30px;
-    background: purple;
+    /* background: purple; */
     justify-content: space-between;
 }
 
 .amount {
     width: 100px;
-    background: grey;
+    /* background: grey; */
     height: 100%;
 }
 
 .amount-button {
     width: 30px;
     margin: 0 5;
-    background: red;
+    /* background: red; */
     height: 100%;
     justify-content: center;
     align-items: center;
