@@ -1,0 +1,43 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    background-color: grey;
+    margin: 0;
+}
+
+#content{
+    width: 80%;
+    height: 80%;
+    background-color: black;
+    margin: auto;
+}
+
+#footer{
+    width: 100%;
+    height: 10%;
+    background-color: green;
+}
+
+#nav-bar{
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    background-color: blue;
+    width: 80%;
+    height: 10%;
+    margin: auto;
+    margin-top: 8%;
+    /* position: fixed; */
+}
+
+#logo-nav{
+    height: 100%;
+    width: 20%;
+    background-color: aquamarine;
+}
+.nav-item{
+   height: 100%;
+   width: 20%;
+   text-align: center;
+   display: d;
+}
