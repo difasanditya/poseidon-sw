@@ -81,7 +81,7 @@ body{
 .ads_item{
     width: 100%;
     height: 100%;
-    background-color: grey;
+    background: url("./assets/img/ad.jpg");
     
 }
 
@@ -135,4 +135,43 @@ body{
 .product-row:nth-child(2)>.product-col:nth-child(3){
     background: url("./assets/product/1.jpg");
     background-size: 100% 100%;
+}
+
+#login-page{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    position: fixed;
+    opacity: 0.9;
+    margin-top: -67px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#login-container{
+    width: 40%;
+    height: 50%;
+    background-color: blue;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+#form{
+    width: 50%;
+    height: 80%;
+}
+
+.login-text{
+    margin-top: 15%;
+}
+
+#username, #password {
+    width: 100%;
+    height: 10%;
+    margin-top: 5px;
 }
