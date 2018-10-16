@@ -11,6 +11,10 @@
     padding: 2%;
 }
 
+.title-page{
+    font-size: 24pt;
+}
+
 .img-card-small{
     height: 100px;
     width: 100px;
@@ -57,8 +61,11 @@
     font-size: 16pt;
 }
 
-center{
+.center {
+    display: block;
     margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 .padd-2-side {
