@@ -1,3 +1,128 @@
 #profile-pic{
-    
+    border-radius: 100%;
+    border: solid 4px #1e3799;
+    background-color: #82ccdd;
+    color: #1e3799;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4em;
+    width: 96px;
+    height: 96px;
+    margin: auto;
+}
+
+#profile-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Bitter";
+    color: #2d3436;
+    text-align: center;
+    margin: 12px;
+}
+
+#profile-name > h3{
+    font-size: 2.5em;
+}
+
+#profile-name > a{
+    color: #2d3436;
+    font-size: .75em;
+    margin: 0 12px;
+}
+
+.box-container{
+    text-align: center;
+    width: 90%;
+    margin: 24px auto;
+    border-radius: 4px;
+    background-color: #fff;
+    overflow: hidden;
+    /* border: solid 2px #1e3799; */
+}
+
+.box-container > .header{
+    background-color: #2d3436;
+    padding: 8px;
+}
+
+.box-container > .header > h4{
+    font-family: "Bitter";
+    font-size: 1.1em;
+    color: #fff;
+}
+
+.box-container > .content{
+    background-color: #f5f6fa;
+    font-family: "Cabin";
+    color: #2d3436;
+}
+
+.box-container > #split-reward{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.box-container > #split-reward > *{
+    padding: 12px;
+}
+
+.box-container > #split-reward > #shell-container{
+    color: #2d3436;
+}
+
+.box-container > #split-reward > #money-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-container > #split-reward p {
+    font-size: 1.375em;
+}
+
+#history > .content > button{
+    margin: 16px;
+}
+
+#history > .content > #transaction-container > .item{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f6fa;
+    padding: 8px 0;
+}
+
+#history > .content > #transaction-container > .item:nth-child(even){
+    background-color: #dcdde1;
+}
+
+#address > .content > #address-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+}
+
+#address > .content > #address-container > .item{
+    background-color: #dcdde1;
+    padding: 12px;
+    width: 240px;
+    height: 100px;
+    margin: 8px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#address > .content > #address-container > .item > *{
+    margin: 2px;
+}
+
+#address > .content > button{
+    margin-bottom: 16px;
 }
